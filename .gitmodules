@@ -1,0 +1,3 @@
+[submodule "Beast/vendor/spdlog"]
+	path = Beast/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git
