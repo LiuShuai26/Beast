@@ -5,10 +5,9 @@
 #ifndef BEAST_H
 #define BEAST_H
 
-#endif //BEAST_H
-
 #include "Beast/Application.h"
 #include "Beast/Log.h"
 
-
 #include "Beast/EntryPoint.h"
+
+#endif //BEAST_H

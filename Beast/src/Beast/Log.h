@@ -5,11 +5,12 @@
 #ifndef LOG_H
 #define LOG_H
 
-#endif //LOG_H
+
 
 
 #include "Core.h"
 #include "spdlog/spdlog.h"
+#include "spdlog/fmt/ostr.h"
 
 namespace Beast {
 
@@ -39,3 +40,5 @@ private:
 #define BS_WARN(...)          ::Beast::Log::GetClientLogger()->warn(__VA_ARGS__)
 #define BS_ERROR(...)         ::Beast::Log::GetClientLogger()->error(__VA_ARGS__)
 #define BS_CRITICAL(...)      ::Beast::Log::GetClientLogger()->critical(__VA_ARGS__)
+
+#endif //LOG_H
