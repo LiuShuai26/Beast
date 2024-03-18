@@ -17,6 +17,8 @@
 #include <unordered_map>
 #include <unordered_set>
 
-// #include <Windows.h>
+#include "Beast/Log.h"
+
+// #include <Beast/Window.h>
 
 #endif //BSPCH_H
