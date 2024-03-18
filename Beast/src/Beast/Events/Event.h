@@ -5,11 +5,9 @@
 #ifndef EVENT_H
 #define EVENT_H
 
-
+#include "bspch.h"
 #include "Beast/Core.h"
 
-#include <string>
-#include <functional>
 
 
 namespace Beast {

@@ -6,8 +6,6 @@
 #define LOG_H
 
 
-
-
 #include "Core.h"
 #include "spdlog/spdlog.h"
 #include "spdlog/fmt/ostr.h"

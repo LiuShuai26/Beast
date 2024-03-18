@@ -2,6 +2,7 @@
 // Created by Shuai Liu on 3/17/24.
 //
 
+#include "bspch.h"
 #include "Application.h"
 
 #include "Events/ApplicationEvent.h"

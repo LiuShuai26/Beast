@@ -9,7 +9,6 @@
 
 #include "Event.h"
 
-#include <sstream>
 
 namespace Beast {
     class MouseMovedEvent : public Event {

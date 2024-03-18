@@ -14,7 +14,11 @@ add_library(Beast SHARED
         Beast/src/Beast/Events/Event.h
         Beast/src/Beast/Events/ApplicationEvent.h
         Beast/src/Beast/Events/KeyEvent.h
-        Beast/src/Beast/Events/MouseEvent.h)
+        Beast/src/Beast/Events/MouseEvent.h
+        Beast/src/bspch.cpp
+        Beast/src/bspch.h)
+
+target_precompile_headers(Beast PUBLIC "${PROJECT_SOURCE_DIR}/Beast/src/bspch.h")
 
 target_include_directories(Beast PUBLIC "${PROJECT_SOURCE_DIR}/Beast/src")
 # Include the spdlog library
